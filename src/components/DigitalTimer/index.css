@@ -1,0 +1,103 @@
+/* Write your CSS here */
+.main-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.digital-heading {
+  color: #0f172a;
+  font-size: 30px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.paused-time-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+}
+.timer-con {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  margin-right: 20px;
+  width: 50vw;
+  height: 80vh;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.num-count {
+  color: #1e293b;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.paused-para {
+  color: #1e293b;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+.start-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.row-arrange {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.img-start {
+  display: flex;
+  border-radius: 0;
+  background: transparent;
+  border-width: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.images {
+  margin: 5px;
+  max-width: 20px;
+  max-height: 20px;
+}
+.start-para {
+  color: #1e293b;
+  font-size: 18px;
+  font-family: 'Roboto';
+  border-radius: 0;
+  background: transparent;
+  border-width: 0;
+}
+.set-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.set-head {
+  color: #1e293b;
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+.minus-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.minus {
+  margin-right: 10px;
+}
+.twenty {
+  background-image: linear-gradient(to left, #00d9f5, #defafe, #00d9f5);
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 15px;
+}
